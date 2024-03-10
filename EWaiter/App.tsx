@@ -17,11 +17,12 @@ import {
   View,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import AuthNavigator from './src/Navigation/AuthNavigator';
 
 function App() {
   return (
   <NavigationContainer>
-    <Text>Hello</Text>
+    <AuthNavigator/>
   </NavigationContainer>
   );
 }

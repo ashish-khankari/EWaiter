@@ -1,13 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import DashboardScreen from '../screens/Dashboard/DashboardScreen'
-import ForgotPasswordScreen from '../screens/ForgotPasswordScreen'
-import LoginScreen from '../screens/LoginScreen'
-import SignUpScreen from '../screens/SignUpScreen'
+import ForgotPasswordScreen from '../screens/Authentication/ForgotPassword/ForgotPasswordScreen'
+import LoginScreen from '../screens/Authentication/Login/LoginScreen'
+// import SignUpScreen from '../screens/Authentication/SignUp/SignUpScreen'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import BottomTab from './BottomTab'
 import { COLORS, ROUTES } from '../constants'
-import Register from '../screens/RegisterScreen'
+import Register from '../screens/Authentication/Register/RegisterScreen'
 import DrawerNavigation from './DrawerNavigation'
 
 export default function AuthNavigator() {

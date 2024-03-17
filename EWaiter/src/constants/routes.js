@@ -4,9 +4,11 @@ export default {
     FORGOT_PASSWORD: 'Forgot Password',
   
     HOME: 'Home',
-    HOME_TAB: 'Home Tab',
+    HOME_TAB: 'Home',
     HOME_DRAWER: 'Home Drawer',
-  
+    SCANNER: 'Scanner',
+    ORDER: 'Order',
+    CART: 'Cart',
     WALLET: 'Wallet',
     WALLET_DRAWER: 'Wallet Drawer',
   
